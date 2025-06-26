@@ -45,5 +45,27 @@
       flex-direction: column;
       row-gap: 20px;
     }
+
+    &-links {
+      display: flex;
+      align-items: center;
+      column-gap: fluid-to-laptop(20, 16);
+    }
+
+    &-link {
+      &:not(:last-child) {
+        position: relative;
+        padding-right: fluid-to-laptop(20, 16);
+
+        &::after {
+          content: '';
+          position: absolute;
+          right: 0;
+          width: 1px;
+          height: 100%;
+          background-color: var(--color-black-15);
+        }
+      }
+    }
   }
 }
