@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
 
-  &__tile {
+  &--tile {
     column-gap: fluid-to-laptop(16, 12);
     padding: fluid-to-laptop(16, 12);
     background-color: var(--color-black-06);
