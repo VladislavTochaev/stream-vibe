@@ -9,7 +9,7 @@ const Button = (props) => {
     href,
     target,
     /*
-    * '' (default) | 'transparent' | 'black-10'
+    * '' (default) | 'transparent' | 'black-08' | 'black-10'
     * */
     mode = '',
     label,
