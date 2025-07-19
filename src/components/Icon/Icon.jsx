@@ -15,7 +15,7 @@ const Icon = (props) => {
     >
       <MinistaIcon
         iconId = {name}
-        fill={hasFill ? 'currenColor' : 'none'}
+        fill={hasFill ? 'currentColor' : 'none'}
         stroke={hasFill ? 'none' : 'currentColor'}
       />
     </span>
