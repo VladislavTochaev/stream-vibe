@@ -44,10 +44,21 @@
     @include mobile {
       flex-direction: column;
     }
+
+    @include mobile-s {
+      width: 100%;
+    }
+  }
+
+  &__play-button {
+    @include mobile-s {
+      width: 100%;
+    }
   }
 
   &__actions {
     display: flex;
+    justify-content: center;
     column-gap: fluid-to-laptop(10, 8);
   }
 }
