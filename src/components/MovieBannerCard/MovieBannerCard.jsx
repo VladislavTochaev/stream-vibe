@@ -29,6 +29,7 @@ const MovieBannerCard = (props) => {
             className="movie-banner-card__play-button"
             label="Play Now"
             iconName="play"
+            hasFillIcon
           />
           <div className="movie-banner-card__actions">
             <Button
